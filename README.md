@@ -16,9 +16,9 @@ If you refresh the screen at any point between signing in and signing out the <S
 6. Run ‘npm run dev’
 7. Create account on site
 8. In ‘@/app/layout.tsx’ add the following code underneath the </SignedIn> tag on line 89.
-![Code Snippet #1](Images/'Number 8 Image.png')
+![Code Snippet #1](./Images/num8img.png)
 9. Add the following appearance prop to the <SignIn /> component in ‘@/app/sign-in/[[…sign-in]]/page.tsx’
-![Code Snippet #2](Images/'Number 9 Image.png')
+![Code Snippet #2](./Images/num9img.png)
 10. Control + C in Terminal to stop running the development server.
 11. Run ‘npm run dev’
 12. Click ‘View Demo’
@@ -29,7 +29,7 @@ If you refresh the screen at any point between signing in and signing out the <S
 NOTE: If you refresh the page the <SignIn /> component will render.
 
 16. Remove appearance prop from <SignIn /> component in ‘@/app/sign-in/[[…sign-in]]/page.tsx’
-![Code Snippet #3](Images/'Number 16 Image.png')
+![Code Snippet #3](./Images/num16img.png)
 17. Save file and repeat steps 13 and 14. The <SignIn /> component will render.
 
 ## Further Tests
@@ -39,7 +39,7 @@ I found that if the browser refreshes at any point before clicking the ‘Sign O
 ### Steps To Re-Create:
 
 1. Add an appearance prop back to the <SignIn /> component
-![Code Snippet #4](Images/'Number 9 Image.png')
+![Code Snippet #4](Images/num9img.png)
 2. Repeat step 13 from steps above.
 3. Refresh browser
 4. Click ‘Sign Out’ button in top-right corner of screen
